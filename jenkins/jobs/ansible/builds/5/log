@@ -1,0 +1,25 @@
+Started by user [8mha:////4KM0OEgt0LxOeJIHKGHELzKFytyeJTIgn9W9JhjCE5SaAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/ansible
+The recommended git tool is: NONE
+using credential GITHUB credentials
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/ansible/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/nikhilearni95/shell_scripts.git # timeout=10
+Fetching upstream changes from https://github.com/nikhilearni95/shell_scripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials git login credentials
+ > git fetch --tags --force --progress -- https://github.com/nikhilearni95/shell_scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 018d3a24831ccf4c0795e6bb917df4e5a31ca2d5 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 018d3a24831ccf4c0795e6bb917df4e5a31ca2d5 # timeout=10
+Commit message: "Update url"
+ > git rev-list --no-walk 018d3a24831ccf4c0795e6bb917df4e5a31ca2d5 # timeout=10
+[ansible] $ /bin/sh -xe /tmp/jenkins5386206616563894220.sh
++ rm -rf nikhil
++ mkdir /var/lib/jenkins/nikhil
+mkdir: cannot create directory ‘/var/lib/jenkins/nikhil’: File exists
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

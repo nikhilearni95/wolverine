@@ -1,0 +1,13 @@
+Started on Aug 7, 2022 6:02:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision d414931f0a3f313a0d7e20afb612b65808a9bf8c (refs/remotes/origin/main)
+The recommended git tool is: NONE
+using credential GITHUB credentials
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials git login credentials
+ > git ls-remote -h -- https://github.com/nikhilearni95/Jenkinsfile_ansible.git # timeout=10
+Found 1 remote heads on https://github.com/nikhilearni95/Jenkinsfile_ansible.git
+[poll] Latest remote head revision on refs/heads/main is: d414931f0a3f313a0d7e20afb612b65808a9bf8c - already built by 2
+Done. Took 0.43 sec
+No changes

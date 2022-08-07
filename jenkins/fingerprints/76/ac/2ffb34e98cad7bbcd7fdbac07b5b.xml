@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-08-06 15:22:45.849 UTC</timestamp>
+  <md5sum>76ac2ffb34e98cad7bbcd7fdbac07b5b</md5sum>
+  <fileName>Credential id=GITHUB credentials name=nikhilearni95@gmail.com/****** (git login credentials)</fileName>
+  <usages>
+    <entry>
+      <string>deploy</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>ansible</string>
+      <ranges>1-5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

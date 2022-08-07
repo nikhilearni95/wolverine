@@ -1,0 +1,20 @@
+Started by user [8mha:////4KM0OEgt0LxOeJIHKGHELzKFytyeJTIgn9W9JhjCE5SaAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/ansible
+The recommended git tool is: NONE
+using credential GITHUB credentials
+Cloning the remote Git repository
+Cloning repository https://github.com/nikhilearni95/shell_scripts.git
+ > git init /var/lib/jenkins/workspace/ansible # timeout=10
+Fetching upstream changes from https://github.com/nikhilearni95/shell_scripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials git login credentials
+ > git fetch --tags --force --progress -- https://github.com/nikhilearni95/shell_scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/nikhilearni95/shell_scripts.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse origin/master^{commit} # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+Finished: FAILURE
